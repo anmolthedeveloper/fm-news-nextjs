@@ -12,7 +12,7 @@ export default function Navbar(props: props) {
         alt="logo image"
         width={100}
         height={100}
-        className="sm:w-20 w-10"
+        className="sm:w-16 w-10"
       />
       <NavElements {...props} />
     </nav>
@@ -31,15 +31,15 @@ function NavElements({ isActive, isActiveHandler }: props) {
         width={100}
         height={100}
         alt="menu icon"
-        className={`sm:w-20 w-7 h-6 sm:hidden z-10 ${
-          isActive ? "fixed right-3 top-6" : ""
+        className={`${isActive ? "w-8 h-7" : "w-12 h-5"} sm:hidden z-10 ${
+          isActive ? "fixed right-6 top-5" : ""
         }`}
         onClick={isActiveHandler}
       />
       <div
         className={`${
           isActive
-            ? "flex flex-col fixed top-0 right-0 w-2/3 h-[100vh] bg-white"
+            ? "flex flex-col fixed top-0 right-0 w-2/3 h-[100vh] bg-offWhite"
             : ""
         }`}
       >
