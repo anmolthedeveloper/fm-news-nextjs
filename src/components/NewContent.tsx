@@ -1,6 +1,6 @@
 export default function NewContent() {
   return (
-    <div className="bg-veryDarkBlue p-6 my-16">
+    <div className="bg-veryDarkBlue p-6 my-16 sm:my-0 sm:w-96">
       <p className="text-softOrange text-4xl font-bold">New</p>
       <NewInnerContent
         title={"Hydrogen VS Electric Cars"}
@@ -32,7 +32,9 @@ interface prop {
 function NewInnerContent({ title, body }: prop) {
   return (
     <div className="mt-5">
-      <p className="text-offWhite text-xl font-bold mb-2">{title}</p>
+      <p className="text-offWhite text-xl font-bold mb-2 hover:text-softOrange">
+        {title}
+      </p>
       <p className="text-grayishBlue">{body}</p>
     </div>
   );
