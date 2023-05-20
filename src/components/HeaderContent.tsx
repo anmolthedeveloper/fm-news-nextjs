@@ -4,7 +4,7 @@ export default function HeaderContent({ isActive }: any) {
     <div className="sm:flex sm:flex-col sm:mr-8">
       <Image
         quality={100}
-        src={"/assets/images/image-web-3-desktop.jpg"}
+        src={"./assets/images/image-web-3-desktop.jpg"}
         height={1000}
         width={1000}
         alt="main image"
@@ -12,7 +12,7 @@ export default function HeaderContent({ isActive }: any) {
       />
       <Image
         quality={100}
-        src={"/assets/images/image-web-3-mobile.jpg"}
+        src={"./assets/images/image-web-3-mobile.jpg"}
         height={1000}
         width={1000}
         alt="main image"

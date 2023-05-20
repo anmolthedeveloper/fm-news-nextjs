@@ -6,21 +6,21 @@ export default function OtherContent() {
         title="Reviving Retro PCs"
         body="What happens when old PCs are given modern upgrades?"
         sno="01"
-        img="/assets/images/image-retro-pcs.jpg"
+        img="./assets/images/image-retro-pcs.jpg"
         alt="retro pcs"
       />
       <OtherContentItem
         title="Top 10 Laptops of 2022"
         body="Our best picks for various needs and budgets."
         sno="02"
-        img="/assets/images/image-top-laptops.jpg"
+        img="./assets/images/image-top-laptops.jpg"
         alt="laptop pic"
       />
       <OtherContentItem
         title="The Growth of Gaming"
         body="How the pandemic has sparked fresh opportunities."
         sno="03"
-        img="/assets/images/image-gaming-growth.jpg"
+        img="./assets/images/image-gaming-growth.jpg"
         alt="retro pcs"
       />
     </div>
